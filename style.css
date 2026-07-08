@@ -76,28 +76,31 @@
     z-index: 1;
 }
 
-.midnight-party-flex img{
+.midnight-party-flex img {
     width: 100%;
     margin-right: 120px;
 }
 
-.midnight-party-text{
+.midnight-party-text {
     color: aliceblue;
     padding: 10%;
 }
-.midnight-party-text h1{
+
+.midnight-party-text h1 {
     font-family: 'Merriweather', serif;
-    font-size:64px ;
+    font-size: 64px;
     font-weight: 600;
 }
-.midnight-party-text h3{
+
+.midnight-party-text h3 {
     font-family: 'Inter', serif;
-    font-size:18px ;
+    font-size: 18px;
     font-weight: 100;
     margin-top: 10px;
     margin-bottom: 50px;
 }
-.midnight-party-text a{
+
+.midnight-party-text a {
     font-family: 'Inter', serif;
     font-size: 22px;
     font-weight: 800;
@@ -109,11 +112,13 @@
     border-radius: 5px;
     transition: 0.3s;
 }
-.midnight-party-text a:hover{
+
+.midnight-party-text a:hover {
     border: 2px solid aliceblue;
     background-color: aliceblue;
     color: #000;
 }
+
 .party-bg {
     width: 100%;
     display: block;
@@ -124,4 +129,114 @@
 .party-banner {
     position: relative;
     margin-top: 50px;
+}
+
+.time-banner {
+    max-width: 1100px;
+    font-family: 'Inter', serif;
+    background: linear-gradient(to bottom,
+            #f1c1c1,
+            transparent);
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 20px;
+    height: 400px;
+
+}
+
+.time-banner span {
+    color: red;
+}
+
+.time-banner h2 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.time-banner div {
+    margin-top: 6%;
+}
+
+.time-banner a {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 30px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.time-banner a:hover {
+    background-color: transparent;
+    color: #ff0000;
+    border: 2px solid #ff0000;
+}
+
+.coming-soon-banner {
+    margin-top: 100px;
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    gap: 80px;
+}
+
+.coming-soon-banner div {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.coming-soon-offer h2 {
+    font-size: 24px;
+    font-family: 'Inter', serif;
+    color: #ff0000;
+}
+
+.coming-soon-offer h1 {
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    color: #000000;
+    font-weight: 1000;
+}
+
+.coming-soon-offer p {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Inter', serif;
+}
+
+.right-offer {
+    font-family: 'Inter', serif;
+}
+
+.right-offer h1 {
+    font-size: 48px;
+    color: #ff0000;
+}
+
+.right-offer p {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+.right-offer img {
+    width: 50%;
+    margin-top: 30px;
+}
+.round-img{
+     /* width: 300px;
+    height: 300px; */
+    border-radius: 50%;
+    border: 15px solid #FF0000;
+    padding: 3%;
+}
+
+.round-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
